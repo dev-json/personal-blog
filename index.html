@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is me. - Jxson</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/main-style.css'>
+    <script src="assets/js/page-utils.js" type="application/javascript"></script>
+    <script src="assets/js/circle-impl.js" type="application/javascript" defer></script>
+    <script src="assets/js/code-converter.js" type="application/javascript" defer></script>
+    <script src="https://kit.fontawesome.com/930a6605b2.js" crossorigin="anonymous"></script></head>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+<body>
+    <div class="body-wrapper">
+        <section id="welcome">
+            <div class="welcome-content-container">
+                <div class="content-container" onclick="scrollToSection('about-me');">
+                    <p>Hey! this is me:<br><b>{Jason}</b></p>
+                </div>
+                <div class="line">&nbsp;</div>
+            </div>
+
+            <div class="side-content-container">
+                <p>私はアンを愛しています</p>
+            </div>
+        </section>
+        <div class="section-seperator"></div>
+        <section id="about-me">
+            <div class="about-me-container">
+                <div class="about-me-container-heading">
+                    <h1>About me</h1>
+                </div>
+                <div class="about-me-container-informations">
+                    <div class="toolbar-container">
+                        <ul>
+                            <li><p>about_me.jxc</p></li>
+                        </ul>
+                        <ul class="toolbar-fake-options">
+                            <li><i class="fa-solid fa-circle-minus"></i></li>
+                            <li><i class="fa-regular fa-window-maximize"></i></li>
+                            <li><i class="fa-regular fa-circle-xmark"></i></li>
+                        </ul>
+                    </div>
+                    <div class="about-me-container-content">
+                        <div class="left-line-numbers">
+                            <ol id="line-numbers">
+                                <script>
+                                    var list = document.getElementById("line-numbers");
+                                    for (var i = 21; i <= 75; i++) {
+                                      var item = document.createElement("li");
+                                      item.innerHTML = i;
+                                      list.appendChild(item);
+                                    }
+                                  </script>
+                            </ol>
+                        </div>
+                        <div class="code-about-me-container">
+                            <ol id="code-lines">
+                                <li><p>&nbsp;</p></li>
+                                <li><p>if(section == SectionType.ABOUT_ME) {</p></li>
+                                <li><p>&nbsp;&nbsp;&nbsp;&nbsp;final String myName = "Jason Meyer"</p></li>
+                                <li><p>&nbsp;&nbsp;&nbsp;&nbsp;final Date birthdate = "03/26/2002";</p></li>
+                                <li><p>&nbsp;&nbsp;&nbsp;&nbsp;int age = 20</script>;</p></li>
+                                <li><p>&nbsp;&nbsp;&nbsp;&nbsp;Location livingPlace = new Location(City.HILDESHEIM Country.GERMANY, "52° 9′ N , 9° 57′ O");</p></li>
+                                <li><p>&nbsp;&nbsp;&nbsp;&nbsp;</p></li>
+                                <li><p>&nbsp;&nbsp;&nbsp;&nbsp;String[] randomFacts = new String[] {</p></li>
+                                <li><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"i love programming",</p></li>
+                                <li><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"im a tall guy",</p></li>
+                                <li><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"im a friendly person",</p></li>
+                                <li><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"i like to learn more things",</p></li>
+                                <li><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"i love noodles :->"</p></li>
+                                <li><p>&nbsp;&nbsp;&nbsp;&nbsp;}</p></li>
+                                <li><p></p></li>
+                                <li><p></p></li>
+                                <li><p>}</p></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="section-seperator"></div>
+        <section id="my-story">
+
+        </section>
+    </div> 
+</body>
+</html>
